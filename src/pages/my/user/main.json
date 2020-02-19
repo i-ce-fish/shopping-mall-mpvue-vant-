@@ -6,6 +6,8 @@
     "van-cell": "/static/vant-weapp/dist/cell/index",
     "van-cell-group": "/static/vant-weapp/dist/cell-group/index",
     "van-icon": "/static/vant-weapp/dist/icon/index",
-    "van-divider": "/static/vant-weapp/dist/divider/index"
+    "van-divider": "/static/vant-weapp/dist/divider/index",
+    "van-grid": "/static/vant-weapp/dist/grid/index",
+    "van-grid-item": "/static/vant-weapp/dist/grid-item/index"
   }
 }

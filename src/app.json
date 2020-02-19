@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/home/index/main"
+    "pages/home/index/main",
+    "pages/my/user/main"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -19,12 +20,24 @@
       },
       {
         "pagePath": "pages/home/index/main",
-        "text": "投稿",
+        "text": "我要找货",
         "iconPath": "static/img/contribute-off.png",
         "selectedIconPath": "static/img/contribute-on.png"
       },
       {
         "pagePath": "pages/home/index/main",
+        "text": "店铺打折",
+        "iconPath": "static/img/contribute-off.png",
+        "selectedIconPath": "static/img/contribute-on.png"
+      },
+      {
+        "pagePath": "pages/home/index/main",
+        "text": "穿法新品",
+        "iconPath": "static/img/contribute-off.png",
+        "selectedIconPath": "static/img/contribute-on.png"
+      },
+      {
+        "pagePath": "pages/my/user/main",
         "text": "我的",
         "iconPath": "static/img/me-off.png",
         "selectedIconPath": "static/img/me-on.png"

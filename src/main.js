@@ -14,6 +14,25 @@ Vue.mixin({
   }
 })
 
+
+// 全局混入
+Vue.mixin({
+  methods: {
+    // todo add data
+    go(url, data) {
+      wx.navigateTo({
+        url: url
+      })
+    },
+    toast: function(text, duration, success) {
+      wx.showToast({
+        title: text,
+        icon: success ? 'success' : 'none',
+        duration: duration || 2000
+      })
+    }
+  }
+})
 // 所有页面都转发
 // ref：https://blog.csdn.net/lhy349/article/details/81188332
 Vue.mixin({

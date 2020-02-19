@@ -1,14 +1,17 @@
 /*全局样式*/
 page {
   background: #fafafa;
-  font-size: 30rpx;
+  font-size: 28rpx;
   color: #282828;
 }
 
 /*布局*/
-.container{
-
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
+
 /*左右边距*/
 .y-padding {
   padding: 0 30rpx;
@@ -48,6 +51,9 @@ page {
   color: #00aa00;
 }
 
+.y-color-white{
+  color: #ffffff;
+}
 /*字体大小 默认为30rpx（15px）*/
 
 .y-font-xs{
