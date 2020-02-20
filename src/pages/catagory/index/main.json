@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我要找货",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-divider": "/static/vant-weapp/dist/divider/index"
+  }
+}

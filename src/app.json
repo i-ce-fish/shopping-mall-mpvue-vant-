@@ -1,7 +1,11 @@
 {
   "pages": [
     "pages/home/index/main",
-    "pages/my/user/main"
+    "pages/catagory/index/main",
+    "pages/my/user/main",
+    "pages/my/integral/main",
+    "pages/my/qrcode/main"
+
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -19,20 +23,8 @@
         "selectedIconPath": "static/img/home-on.png"
       },
       {
-        "pagePath": "pages/home/index/main",
+        "pagePath": "pages/catagory/index/main",
         "text": "我要找货",
-        "iconPath": "static/img/contribute-off.png",
-        "selectedIconPath": "static/img/contribute-on.png"
-      },
-      {
-        "pagePath": "pages/home/index/main",
-        "text": "店铺打折",
-        "iconPath": "static/img/contribute-off.png",
-        "selectedIconPath": "static/img/contribute-on.png"
-      },
-      {
-        "pagePath": "pages/home/index/main",
-        "text": "穿法新品",
         "iconPath": "static/img/contribute-off.png",
         "selectedIconPath": "static/img/contribute-on.png"
       },

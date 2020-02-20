@@ -99,6 +99,10 @@ page {
   display: flex;
 }
 
+.tui-flex-col{
+  display: flex;
+  flex-direction: column;
+}
 .tui-flex-1 {
   flex: 1;
 }

@@ -53,7 +53,7 @@
           </div>
           <div class="right-box tui-col-2">
             <div class="">
-              <van-icon name="qr" size="32px"/>
+              <van-icon name="qr" @tap="go('/pages/my/qrcode/main')" size="32px"/>
             </div>
             <div class="detail tui-flex">
               <div class="tui-vertical-center">详情</div>
@@ -86,7 +86,7 @@
             <div class="">
               20春部分货品：2件8.8折
             </div>
-            <div class="">
+            <div class="y-color-red">
               全场满500元立减100元
             </div>
             <div class="">
@@ -166,14 +166,14 @@
             </div>
           </tui-list-cell>
           <div class="item-box  y-padding y-bgc-white ">
-              <div class="">
-                衷心感谢您介绍亲友照顾店铺生意！
-              </div>
-              <div class="">
-                您的亲友可以享受您的待遇
-              </div>
-              <div class="">
-                另送您一点薄礼以示谢意！
+            <div class="">
+              衷心感谢您介绍亲友照顾店铺生意！
+            </div>
+            <div class="y-color-red">
+              您的亲友可以享受您的待遇
+            </div>
+            <div class="">
+              另送您一点薄礼以示谢意！
             </div>
           </div>
         </tui-list-view>
@@ -211,19 +211,22 @@
   }
 </script>
 <style lang="scss" scoped>
-  .title{
-    padding: 10rpx 0 ;
+  .title {
+    padding: 10 rpx 0;
   }
-  .swiper-box{
+
+  .swiper-box {
     position: relative;
-    .address{
+
+    .address {
       position: absolute;
       color: white;
-      bottom: 10rpx;
-      right: 10rpx;
+      bottom: 10 rpx;
+      right: 10 rpx;
     }
 
   }
+
   .content-box{
     .userinfo-box{
       padding:16rpx 30rpx;
@@ -252,14 +255,14 @@
     .userinfo-detail-box{
       padding:20rpx 30rpx;
       background-color: white;
-      div{
+      >div{
         padding: 10rpx 0 ;
       }
     }
 
     .activity-box,.wear-box,.friend-box,.explore-box{
       .item-box{
-        div{
+        >div{
           padding: 10rpx 0 ;
         }
       }

@@ -1,6 +1,6 @@
 {
-  "navigationBarTitleText": "首页",
-  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "我的账户",
+  "enablePullDownRefresh": false,
   "usingComponents": {
     "van-image": "/static/vant-weapp/dist/image/index",
     "van-cell": "/static/vant-weapp/dist/cell/index",

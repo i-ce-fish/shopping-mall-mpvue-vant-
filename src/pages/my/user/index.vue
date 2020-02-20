@@ -15,56 +15,56 @@
         <div class="">
           杨晴文-上海
         </div>
-        <div class="">
+        <div class="y-font-l">
           二级会员
         </div>
-        <div class="">
-        新品88折
+        <div class="y-font-l">
+          新品88折
         </div>
       </div>
     </div>
     <div class="grid-box">
       <div class="my-box">
         <van-grid column-num="3">
-          <van-grid-item icon="cash-on-deliver" text="红包5张/卡券520" />
-          <van-grid-item icon="balance-o" text="余额 1788.00" />
-          <van-grid-item icon="gift-o" text="积分 500" />
-          <van-grid-item icon="friends-o" text="亲友圈 58人" />
-          <van-grid-item icon="manager-o" text="我的专属顾问" />
-          <van-grid-item icon="qr" text="我的会员码" />
+          <van-grid-item icon="cash-on-deliver" text="红包5张/卡券520"/>
+          <van-grid-item icon="balance-o" text="余额 1788.00"/>
+          <van-grid-item icon="gift-o" text="积分 500"/>
+          <van-grid-item icon="friends-o" text="亲友圈 58人"/>
+          <van-grid-item icon="manager-o" text="我的专属顾问"/>
+          <van-grid-item icon="qr" @tap="go('/pages/my/qrcode/main')" text="我的会员码"/>
         </van-grid>
       </div>
       <div class="my-box">
         <tui-list-view title="我是时尚达人">
-        <van-grid column-num="3">
-          <van-grid-item icon="contact" text="完善我的基本资料" />
-          <van-grid-item icon="photo-o" text="亲友的穿衣数据" />
-          <van-grid-item icon="photo-o" text="我的货品建议" />
-          <van-grid-item icon="photo-o" text="我的穿搭美图" />
-          <van-grid-item icon="photo-o" text="我当模特" />
-          <van-grid-item icon="photo-o" text="我的定制" />
-        </van-grid>
+          <van-grid column-num="3">
+            <van-grid-item icon="contact" text="完善我的基本资料"/>
+            <van-grid-item icon="photo-o" text="亲友的穿衣数据"/>
+            <van-grid-item icon="photo-o" text="我的货品建议"/>
+            <van-grid-item icon="photo-o" text="我的穿搭美图"/>
+            <van-grid-item icon="photo-o" text="我当模特"/>
+            <van-grid-item icon="photo-o" text="我的定制"/>
+          </van-grid>
         </tui-list-view>
       </div>
       <div class="my-box">
         <tui-list-view title="我的购物车">
-        <van-grid column-num="3">
-          <van-grid-item icon="completed" text="已买好的" />
-          <van-grid-item icon="balance-pay" text="未付款的" />
-          <van-grid-item icon="like-o" text="我想要的" />
-        </van-grid>
+          <van-grid column-num="3">
+            <van-grid-item icon="completed" text="已买好的"/>
+            <van-grid-item icon="balance-pay" text="未付款的"/>
+            <van-grid-item icon="like-o" text="我想要的"/>
+          </van-grid>
         </tui-list-view>
       </div>
       <div class="my-box">
         <tui-list-view title="温馨提示">
-        <van-grid column-num="3">
-          <van-grid-item icon="photo-o" text="积分和折扣规则" />
-          <van-grid-item icon="photo-o" text="分销奖励政策" />
-          <van-grid-item icon="photo-o" text="会员退换货规定" />
-          <van-grid-item icon="photo-o" text="洗涤告示" />
-          <van-grid-item icon="photo-o" text="会员权益" />
-          <van-grid-item icon="photo-o" text="其他" />
-        </van-grid>
+          <van-grid column-num="3">
+            <van-grid-item icon="photo-o" @tap="go('/pages/my/integral/main')" text="积分和折扣规则"/>
+            <van-grid-item icon="photo-o" text="分销奖励政策"/>
+            <van-grid-item icon="photo-o" text="会员退换货规定"/>
+            <van-grid-item icon="photo-o" text="洗涤告示"/>
+            <van-grid-item icon="photo-o" text="会员权益"/>
+            <van-grid-item icon="photo-o" text="其他"/>
+          </van-grid>
         </tui-list-view>
       </div>
     </div>
@@ -75,16 +75,13 @@
   import tuiListView from "@/components/list-view/list-view"
 
   export default {
-    components: {tuiListView
+    components: {
+      tuiListView
     },
     onLoad() {
-      wx.setNavigationBarTitle({
-        title: '我的账户'
-      })
-    },
-    methods: {
 
     },
+    methods: {},
     data() {
       return {
         imgs: [
@@ -96,17 +93,19 @@
   }
 </script>
 <style lang="scss" scoped>
-.head-box{
-  background-color: #ee6310;
-  .avatar{
+  .head-box {
+    background-color: #ee6310;
 
-  }
-  .info-box{
-    div{
-      padding: 10rpx 0 ;
+    .avatar {
 
     }
-  }
-}
 
- </style>
+    .info-box {
+      div {
+        padding: 10rpx 0 ;
+
+      }
+    }
+  }
+
+</style>

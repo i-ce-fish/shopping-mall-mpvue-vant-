@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "title",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-divider": "/static/vant-weapp/dist/divider/index"
+  }
+}
