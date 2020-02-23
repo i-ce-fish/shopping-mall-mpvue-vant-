@@ -257,9 +257,7 @@
         })
       },
       detail: function() {
-        wx.navigateTo({
-          url: '../productDetail/productDetail'
-        })
+       this.go('/pages/catagory/product-detail/main')
       }
     },
     data() {
