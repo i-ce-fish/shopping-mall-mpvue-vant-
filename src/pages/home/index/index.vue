@@ -212,7 +212,7 @@
 </script>
 <style lang="scss" scoped>
   .title {
-    padding: 10 rpx 0;
+    padding: 10rpx 0;
   }
 
   .swiper-box {
@@ -221,8 +221,8 @@
     .address {
       position: absolute;
       color: white;
-      bottom: 10 rpx;
-      right: 10 rpx;
+      bottom: 10rpx;
+      right: 10rpx;
     }
 
   }

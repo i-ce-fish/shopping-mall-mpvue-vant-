@@ -2,6 +2,8 @@
   "pages": [
     "pages/home/index/main",
     "pages/catagory/index/main",
+    "pages/catagory/search/main",
+    "pages/catagory/product-list/main",
     "pages/my/user/main",
     "pages/my/integral/main",
     "pages/my/qrcode/main"

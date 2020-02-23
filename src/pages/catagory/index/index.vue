@@ -2,7 +2,7 @@
   <div class="container">
     <view class="container">
       <view class="tui-searchbox">
-        <view class="tui-search-input" bindtap="search">
+        <view class="tui-search-input" @tap="search">
           <icon type="search" size='13' color='#999'></icon>
           <text class="tui-search-text">搜索商品</text>
         </view>
@@ -18,13 +18,13 @@
         <block v-for="(item,index) in tabbar" :key="index">
           <view class="page-view" :hidden="currentTab!==index">
             <swiper indicator-dots autoplay circular interval="5000" duration="150" class="swiper">
-              <swiper-item v-if="index%2===0" catchtap="detail">
+              <swiper-item v-if="index%2===0" @tap.stop="detail">
                 <image :src="testImg" class="slide-image" />
               </swiper-item>
-              <swiper-item catchtap="detail">
+              <swiper-item @tap.stop="detail">
                 <image :src="testImg" class="slide-image" />
               </swiper-item>
-              <swiper-item catchtap="detail">
+              <swiper-item @tap.stop="detail">
                 <image  :src="testImg"  class="slide-image" />
               </swiper-item>
             </swiper>
@@ -32,19 +32,19 @@
               <view class="class-item">
                 <view class="class-name">{{item}}</view>
                 <view class="g-container">
-                  <view class="g-box" catchtap="productList" data-key="高价回收">
+                  <view class="g-box" @tap.stop="productList" data-key="高价回收">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">高价回收</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="好物优选">
+                  <view class="g-box" @tap.stop="productList" data-key="好物优选">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">好物优选</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="iphone X">
+                  <view class="g-box" @tap.stop="productList" data-key="iphone X">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">iphone X</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="电动牙刷" v-if="index%2===0">
+                  <view class="g-box" @tap.stop="productList" data-key="电动牙刷" v-if="index%2===0">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">电动牙刷</view>
                   </view>
@@ -54,35 +54,35 @@
               <view class="class-item">
                 <view class="class-name">专场推荐{{index+1}}</view>
                 <view class="g-container">
-                  <view class="g-box" catchtap="productList" data-key="笔记本" v-if="index%2===0">
+                  <view class="g-box" @tap.stop="productList" data-key="笔记本" v-if="index%2===0">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">笔记本</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="电水壶">
+                  <view class="g-box" @tap.stop="productList" data-key="电水壶">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">电水壶</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="iphone X">
+                  <view class="g-box" @tap.stop="productList" data-key="iphone X">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">iphone X</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="电动牙刷">
+                  <view class="g-box" @tap.stop="productList" data-key="电动牙刷">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">电动牙刷</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="抽纸">
+                  <view class="g-box" @tap.stop="productList" data-key="抽纸">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">抽纸</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="笔记本">
+                  <view class="g-box" @tap.stop="productList" data-key="笔记本">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">笔记本</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="电水壶">
+                  <view class="g-box" @tap.stop="productList" data-key="电水壶">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">电水壶</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="iphone X" v-if="index%2===0">
+                  <view class="g-box" @tap.stop="productList" data-key="iphone X" v-if="index%2===0">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">iphone X</view>
                   </view>
@@ -92,27 +92,27 @@
               <view class="class-item">
                 <view class="class-name">专场推荐{{index+1}}</view>
                 <view class="g-container">
-                  <view class="g-box" catchtap="productList" data-key="iphone X">
+                  <view class="g-box" @tap.stop="productList" data-key="iphone X">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">iphone X</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="电动牙刷">
+                  <view class="g-box" @tap.stop="productList" data-key="电动牙刷">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">电动牙刷</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="抽纸">
+                  <view class="g-box" @tap.stop="productList" data-key="抽纸">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">抽纸</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="笔记本">
+                  <view class="g-box" @tap.stop="productList" data-key="笔记本">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">笔记本</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="电水壶">
+                  <view class="g-box" @tap.stop="productList" data-key="电水壶">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">电水壶</view>
                   </view>
-                  <view class="g-box" catchtap="productList" data-key="iphone X" v-if="index%2===0">
+                  <view class="g-box" @tap.stop="productList" data-key="iphone X" v-if="index%2===0">
                     <image :src="testImg" class="g-image" />
                     <view class="g-title">iphone X</view>
                   </view>
@@ -170,20 +170,21 @@
         }
       },
       detail(e) {
-        wx.navigateTo({
-          url: '../extend-view/productDetail/productDetail'
-        })
+        // wx.navigateTo({
+        //   url: 'pages/catagory/product-list/main'
+        // })
+        this.go('/pages/catagory/product-list/main')
+
       },
       productList(e) {
         let key = e.currentTarget.dataset.key;
-        wx.navigateTo({
-          url: '../extend-view/productList/productList?searchKey=' + key
-        })
+        // wx.navigateTo({
+        //   // url: '../extend-view/productList/productList?searchKey=' + key
+        // })
+        this.go('/pages/catagory/product-list/main')
       },
       search: function() {
-        wx.navigateTo({
-          url: '../extend-view/news-search/news-search'
-        })
+        this.go('/pages/catagory/search/main')
       }
     },
     data() {

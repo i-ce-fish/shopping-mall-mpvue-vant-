@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "搜索商品",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-divider": "/static/vant-weapp/dist/divider/index",
+    "van-tag": "/static/vant-weapp/dist/tag/index",
+    "van-icon": "/static/vant-weapp/dist/icon/index",
+    "van-action-sheet": "/static/vant-weapp/dist/action-sheet/index"
+  }
+}

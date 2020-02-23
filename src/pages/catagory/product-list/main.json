@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-icon": "/static/vant-weapp/dist/icon/index",
+    "van-image": "/static/vant-weapp/dist/image/index"
+  }
+}
