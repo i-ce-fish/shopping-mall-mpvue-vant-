@@ -4,6 +4,7 @@
     "pages/catagory/index/main",
     "pages/catagory/search/main",
     "pages/catagory/product-list/main",
+    "pages/catagory/product-detail/main",
     "pages/my/user/main",
     "pages/my/integral/main",
     "pages/my/qrcode/main"
