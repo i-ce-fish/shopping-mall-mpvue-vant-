@@ -10,18 +10,18 @@
     },
     onLoad() {
     },
-    methods: {
-    },
     data() {
       return {
         testImg: "https://source.unsplash.com/random",
       }
+    },
+    methods: {
+
     }
   }
 </script>
 <style lang="scss">
-  .container{
-  }
+
 </style>
 
 
