@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "购物车",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-divider": "/static/vant-weapp/dist/divider/index",
+    "van-checkbox": "/static/vant-weapp/dist/checkbox/index",
+    "van-button": "/static/vant-weapp/dist/button/index",
+    "van-submit-bar": "/static/vant-weapp/dist/submit-bar/index",
+    "van-swipe-cell": "/static/vant-weapp/dist/swipe-cell/index"
+  }
+}
