@@ -201,7 +201,7 @@
         <van-goods-action-icon
           icon="cart-o"
           text="购物车"
-          @click="onClickIcon"
+          @click="go('/pages/shopping/cart/main')"
         />
         <van-goods-action-icon
           icon="cart-o"
@@ -215,7 +215,7 @@
         />
         <van-goods-action-button
           text="立即购买"
-          @click="hidePopup"
+          @click="buyNow"
         />
       </van-goods-action>
     <!--底部操作栏--->
@@ -447,6 +447,9 @@
         wx.navigateTo({
           url: '../mall-extend/coupon/coupon'
         })
+      },
+      buyNow() {
+        this.go('/pages/shopping/submit-order/main')
       }
     }
 
