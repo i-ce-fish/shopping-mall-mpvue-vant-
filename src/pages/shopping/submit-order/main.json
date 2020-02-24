@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "提交订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-divider": "/static/vant-weapp/dist/divider/index",
+    "van-image": "/static/vant-weapp/dist/image/index",
+    "van-submit-bar": "/static/vant-weapp/dist/submit-bar/index"
+  }
+}
