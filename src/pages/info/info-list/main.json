@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "信息列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-divider": "/static/vant-weapp/dist/divider/index",
+    "van-cell": "/static/vant-weapp/dist/cell/index",
+    "van-cell-group": "/static/vant-weapp/dist/cell-group/index"
+  }
+}
