@@ -115,7 +115,8 @@
 		border-width: 2px 2px 0 0;
     /*箭头的颜色*/
     /*border-color: #b2b2b2;*/
-    border-color: #ffffff;
+    /*border-color: #ffffff;*/
+    border-color: #d6d6d6;
 		border-style: solid;
 		-webkit-transform: matrix(0.5, 0.5, -0.5, 0.5, 0, 0);
 		transform: matrix(0.5, 0.5, -0.5, 0.5, 0, 0);
