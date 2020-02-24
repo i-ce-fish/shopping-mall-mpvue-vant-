@@ -5,9 +5,14 @@
     "pages/catagory/search/main",
     "pages/catagory/product-list/main",
     "pages/catagory/product-detail/main",
+    "pages/shopping/cart/main",
+    "pages/shopping/submit-order/main",
+    "pages/shopping/address/main",
+    "pages/shopping/address-add/main",
     "pages/my/user/main",
     "pages/my/integral/main",
-    "pages/my/qrcode/main"
+    "pages/my/qrcode/main",
+    "pages/info/info-list/main"
 
   ],
   "window": {
@@ -28,6 +33,12 @@
       {
         "pagePath": "pages/catagory/index/main",
         "text": "我要找货",
+        "iconPath": "static/img/contribute-off.png",
+        "selectedIconPath": "static/img/contribute-on.png"
+      },
+      {
+        "pagePath": "pages/shopping/cart/main",
+        "text": "购物车",
         "iconPath": "static/img/contribute-off.png",
         "selectedIconPath": "static/img/contribute-on.png"
       },
