@@ -49,7 +49,7 @@
     <van-submit-bar
       :price="3050"
       button-text="去结算"
-      @submit="go('/pages/shopping/submit-order/main')"
+      @submit="go('/pages/shopping/order/submit-order/main')"
     />
   </view>
 </template>
