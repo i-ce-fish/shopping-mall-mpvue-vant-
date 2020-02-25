@@ -44,9 +44,7 @@
     },
     methods: {
       editAddr(index, addressType) {
-        wx.navigateTo({
-          url: "../editAddress/editAddress"
-        })
+        this.go('/pages/shopping/address/add-address/main')
       }
     }
   }
