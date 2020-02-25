@@ -49,8 +49,8 @@
       <div class="my-box">
         <tui-list-view title="我的购物车">
           <van-grid column-num="3">
-            <van-grid-item icon="completed" text="已买好的"/>
-            <van-grid-item icon="balance-pay" text="未付款的"/>
+            <van-grid-item icon="completed" @click="go('/pages/shopping/order/paid-order/main')" text="已买好的"/>
+            <van-grid-item icon="balance-pay" @click="go('/pages/shopping/order/paid-order/main')" text="未付款的"/>
             <van-grid-item icon="like-o" text="我想要的"/>
           </van-grid>
         </tui-list-view>
