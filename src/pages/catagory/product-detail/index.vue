@@ -449,7 +449,7 @@
         })
       },
       buyNow() {
-        this.go('/pages/shopping/submit-order/main')
+        this.go('/pages/shopping/order/submit-order/main')
       }
     }
 
