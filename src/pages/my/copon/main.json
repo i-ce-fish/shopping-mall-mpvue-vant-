@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的卡券",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-divider": "/static/vant-weapp/dist/divider/index",
+    "van-button": "/static/vant-weapp/dist/button/index",
+    "van-tab": "/static/vant-weapp/dist/tab/index",
+    "van-tabs": "/static/vant-weapp/dist/tabs/index"
+
+  }
+}
