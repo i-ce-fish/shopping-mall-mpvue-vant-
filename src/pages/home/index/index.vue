@@ -26,6 +26,7 @@
             height="120rpx"
             fit="fill"
             :src="imgs[1]"
+            @tap="test"
           />
         </div>
         <div class="tui-col-10 tui-flex tui-align-between">
@@ -55,7 +56,7 @@
             <div class="">
               <van-icon name="qr" @tap="go('/pages/my/qrcode/main')" size="32px"/>
             </div>
-            <div class="detail tui-flex">
+            <div class="detail tui-flex" @tap="go('/pages/my/qrcode/main')">
               <div class="tui-vertical-center">详情</div>
               <van-icon class="" name="arrow" size="15px"/>
             </div>
@@ -185,7 +186,7 @@
 <script>
   import tuiListView from "@/components/list-view/list-view"
   import tuiListCell from "@/components/list-cell/list-cell"
-
+  import {login} from '@/api/user'
   export default {
     components: {
       tuiListCell, tuiListView
@@ -196,8 +197,14 @@
       })
     },
     methods: {
-      test() {
-        console.log('test () ')
+      async test() {
+        const  res = await login(
+          {
+            email: "maxazure@gmail.com",
+            password: "11111111"
+          }
+        )
+        console.log(res)
       }
     },
     data() {
