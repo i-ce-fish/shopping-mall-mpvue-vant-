@@ -1,9 +1,12 @@
 {
-  "navigationBarTitleText": "等级折扣规则",
+  "navigationBarTitleText": "积分",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "van-divider": "/static/vant-weapp/dist/divider/index",
-    "van-collapse": "/static/vant-weapp/dist/collapse/index",
-    "van-collapse-item": "/static/vant-weapp/dist/collapse-item/index"
+    "van-tab": "/static/vant-weapp/dist/tab/index",
+
+    "van-tabs": "/static/vant-weapp/dist/tabs/index",
+    "van-cell": "/static/vant-weapp/dist/cell/index",
+    "van-cell-group": "/static/vant-weapp/dist/cell-group/index"
   }
 }
