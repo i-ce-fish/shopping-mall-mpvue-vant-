@@ -6,21 +6,27 @@
     "pages/catagory/product-list/main",
     "pages/catagory/product-detail/main",
     "pages/shopping/cart/main",
-    "pages/shopping/address/address/main",
-    "pages/shopping/address/add-address/main",
+    "pages/shopping/address/list/main",
+    "pages/shopping/address/add/main",
     "pages/shopping/order/submit-order/main",
     "pages/shopping/order/paid-order/main",
     "pages/shopping/order/order-detail/main",
     "pages/my/user/main",
-    "pages/my/integral/main",
     "pages/my/qrcode/main",
+    "pages/my/copon/main",
+    "pages/my/money/main",
+    "pages/my/friend/main",
+    "pages/my/info/main",
+    "pages/my/wear-data/list/main",
+    "pages/my/wear-data/add/main",
+    "pages/rule/integral/main",
     "pages/info/info-list/main"
 
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#ff4444",
-    "navigationBarTitleText": "干货分享",
+    "navigationBarTitleText": "商城",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
