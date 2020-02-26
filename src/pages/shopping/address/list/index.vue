@@ -44,7 +44,7 @@
     },
     methods: {
       editAddr(index, addressType) {
-        this.go('/pages/shopping/address/add-address/main')
+        this.go('/pages/shopping/address/add/main')
       }
     }
   }
