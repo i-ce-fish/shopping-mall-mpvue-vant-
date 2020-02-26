@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的穿衣数据",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-button": "/static/vant-weapp/dist/button/index",
+    "van-image": "/static/vant-weapp/dist/image/index",
+    "van-icon": "/static/vant-weapp/dist/icon/index"
+  }
+}

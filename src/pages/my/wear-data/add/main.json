@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新增穿衣数据",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-button": "/static/vant-weapp/dist/button/index"
+  }
+}
