@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <van-tabs :active="active" @change="onChange">
+    <van-tabs swipeable scrollspy sticky :active="active" @change="onChange"    >
       <van-tab title="已完成订单">
 
 

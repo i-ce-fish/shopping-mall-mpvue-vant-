@@ -96,7 +96,7 @@
       }
     },
     methods: {
-      chooseAddr() {this.go('/pages/shopping/address/address/main')
+      chooseAddr() {this.go('/pages/shopping/address/list/main')
       },
       btnPay() {
         wx.navigateTo({
