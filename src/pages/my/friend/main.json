@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "亲友圈",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "van-divider": "/static/vant-weapp/dist/divider/index",
+    "van-tab": "/static/vant-weapp/dist/tab/index",
+
+    "van-tabs": "/static/vant-weapp/dist/tabs/index",
+    "van-cell": "/static/vant-weapp/dist/cell/index",
+    "van-cell-group": "/static/vant-weapp/dist/cell-group/index"
+  }
+}
