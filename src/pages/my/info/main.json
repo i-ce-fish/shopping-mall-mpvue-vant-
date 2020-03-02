@@ -2,6 +2,15 @@
   "navigationBarTitleText": "完善个人资料",
   "enablePullDownRefresh": false,
   "usingComponents": {
-    "van-button": "/static/vant-weapp/dist/button/index"
+    "van-button": "/static/vant-weapp/dist/button/index",
+    "van-radio": "/static/vant-weapp/dist/radio/index",
+    "van-radio-group": "/static/vant-weapp/dist/radio-group/index",
+    "van-popup": "/static/vant-weapp/dist/popup/index",
+    "van-area": "/static/vant-weapp/dist/area/index",
+    "van-stepper": "/static/vant-weapp/dist/stepper/index",
+    "van-picker": "/static/vant-weapp/dist/picker/index",
+    "van-checkbox": "/static/vant-weapp/dist/checkbox/index",
+    "van-checkbox-group": "/static/vant-weapp/dist/checkbox-group/index",
+    "van-datetime-picker": "/static/vant-weapp/dist/datetime-picker/index"
   }
 }
