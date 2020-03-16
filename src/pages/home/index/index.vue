@@ -180,13 +180,13 @@
         </tui-list-view>
       </div>
     </div>
+
     <van-divider contentPosition="center">到底了</van-divider>
   </div>
 </template>
 <script>
   import tuiListView from "@/components/list-view/list-view"
   import tuiListCell from "@/components/list-cell/list-cell"
-  import {login} from '@/api/user'
   export default {
     components: {
       tuiListCell, tuiListView
@@ -197,15 +197,7 @@
       })
     },
     methods: {
-      async test() {
-        const  res = await login(
-          {
-            email: "maxazure@gmail.com",
-            password: "11111111"
-          }
-        )
-        console.log(res)
-      }
+
     },
     data() {
       return {

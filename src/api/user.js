@@ -14,3 +14,4 @@ export function getColor() {
     method:'GET'
 	})
 }
+

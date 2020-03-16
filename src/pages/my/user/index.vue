@@ -27,6 +27,7 @@
       <div class="my-box">
         <van-grid column-num="3">
           <van-grid-item icon="cash-on-deliver" @click="go('/pages/my/copon/main')" text="红包5张/卡券520"/>
+<!--          <van-grid-item icon="cash-on-deliver" @click="go('http://cdb99/com')" text="红包5张/卡券520"/>-->
           <van-grid-item icon="balance-o" @tap="go('/pages/my/money/main')" text="余额 1788.00"/>
           <van-grid-item icon="gift-o" @tap="go('/pages/my/integral/main')" text="积分 500"/>
           <van-grid-item icon="friends-o" @tap="go('/pages/my/friend/main')" text="亲友圈 58人"/>
@@ -63,7 +64,7 @@
             <van-grid-item icon="photo-o" text="会员退换货规定"/>
             <van-grid-item icon="photo-o" text="洗涤告示"/>
             <van-grid-item icon="photo-o" text="会员权益"/>
-            <van-grid-item icon="photo-o" text="其他"/>
+            <van-grid-item icon="photo-o" @tap="go('/pages/test/main')" text="测试"/>
           </van-grid>
         </tui-list-view>
       </div>
@@ -78,10 +79,8 @@
     components: {
       tuiListView
     },
-    onLoad() {
-
+    methods: {
     },
-    methods: {},
     data() {
       return {
         imgs: [

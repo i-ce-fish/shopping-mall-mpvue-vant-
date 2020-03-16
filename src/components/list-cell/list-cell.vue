@@ -1,7 +1,7 @@
 <template>
 	<view class="tui-cell-class tui-list-cell" :class="{'tui-cell-arrow':arrow,'tui-cell-last':last,'tui-line-left':lineLeft,'tui-line-right':lineRight,'tui-radius':radius}" :hover-class="hover?'tui-cell-hover':''"
 	 :style="{background: bgcolor,fontSize: size+'rpx',color:color,padding:padding}" :hover-stay-time="150" @tap="handleClick">
-		<slot></slot>
+		<slot ></slot>
 	</view>
 </template>
 
